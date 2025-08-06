@@ -6,6 +6,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\HomeController;
 use App\Http\Middleware\AdminMiddleware;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CategoryController;
 
 //Route::get('/test_admin', function () {
 //    return view('admin.test_admin');
@@ -22,7 +23,7 @@ Route::middleware('auth')->group(function () {
 
 //Admin middleware
 Route::middleware('admin')->group(function () {
-    Route::get('/test_admin',[AdminController::class,'test_admin'])->name('test_admin');
+    Route::get('/admin/category/add',[CategoryController::class,'addCategory'])->name('admin.category.add');
 });
 
 require __DIR__.'/auth.php';

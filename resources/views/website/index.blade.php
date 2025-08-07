@@ -11,7 +11,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="shortcut icon" href="website/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('/')}}website/images/favicon.png" type="image/x-icon">
 
     <title>
         Giftos
@@ -21,12 +21,12 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
     <!-- bootstrap core css -->
-    <link rel="stylesheet" type="text/css" href="website/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="{{asset('/')}}website/css/bootstrap.css" />
 
     <!-- Custom styles for this template -->
-    <link href="website/css/style.css" rel="stylesheet" />
+    <link href="{{asset('/')}}website/css/style.css" rel="stylesheet" />
     <!-- responsive style -->
-    <link href="website/css/responsive.css" rel="stylesheet" />
+    <link href="{{asset('/')}}website/css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -127,7 +127,7 @@
                                 </div>
                                 <div class="col-md-5 ">
                                     <div class="img-box">
-                                        <img style="width:600px" src="website/images/image3.jpeg" alt="" />
+                                        <img style="width:600px" src="{{asset('/')}}website/images/image3.jpeg" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                 <div class="box">
                     <a href="">
                         <div class="img-box">
-                            <img src="website/images/p1.png" alt="">
+                            <img src="{{asset('/')}}website/images/p1.png" alt="">
                         </div>
                         <div class="detail-box">
                             <h6>
@@ -183,7 +183,7 @@
                 <div class="box">
                     <a href="">
                         <div class="img-box">
-                            <img src="website/images/p2.png" alt="">
+                            <img src="{{asset('/')}}website/images/p2.png" alt="">
                         </div>
                         <div class="detail-box">
                             <h6>
@@ -208,7 +208,7 @@
                 <div class="box">
                     <a href="">
                         <div class="img-box">
-                            <img src="website/images/p3.png" alt="">
+                            <img src="{{asset('/')}}website/images/p3.png" alt="">
                         </div>
                         <div class="detail-box">
                             <h6>
@@ -233,7 +233,7 @@
                 <div class="box">
                     <a href="">
                         <div class="img-box">
-                            <img src="website/images/p4.png" alt="">
+                            <img src="{{asset('/')}}website/images/p4.png" alt="">
                         </div>
                         <div class="detail-box">
                             <h6>
@@ -258,7 +258,7 @@
                 <div class="box">
                     <a href="">
                         <div class="img-box">
-                            <img src="website/images/p5.png" alt="">
+                            <img src="{{asset('/')}}website/images/p5.png" alt="">
                         </div>
                         <div class="detail-box">
                             <h6>
@@ -283,7 +283,7 @@
                 <div class="box">
                     <a href="">
                         <div class="img-box">
-                            <img src="website/images/p6.png" alt="">
+                            <img src="{{asset('/')}}website/images/p6.png" alt="">
                         </div>
                         <div class="detail-box">
                             <h6>
@@ -308,7 +308,7 @@
                 <div class="box">
                     <a href="">
                         <div class="img-box">
-                            <img src="website/images/p7.png" alt="">
+                            <img src="{{asset('/')}}website/images/p7.png" alt="">
                         </div>
                         <div class="detail-box">
                             <h6>
@@ -333,7 +333,7 @@
                 <div class="box">
                     <a href="">
                         <div class="img-box">
-                            <img src="website/images/p8.png" alt="">
+                            <img src="{{asset('/')}}website/images/p8.png" alt="">
                         </div>
                         <div class="detail-box">
                             <h6>
@@ -510,11 +510,11 @@
 <!-- end info section -->
 
 
-<script src="website/js/jquery-3.4.1.min.js"></script>
-<script src="website/js/bootstrap.js"></script>
+<script src="{{asset('/')}}website/js/jquery-3.4.1.min.js"></script>
+<script src="{{asset('/')}}website/js/bootstrap.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
 </script>
-<script src="website/js/custom.js"></script>
+<script src="{{asset('/')}}website/js/custom.js"></script>
 
 </body>
 

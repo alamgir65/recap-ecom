@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="{{asset('/')}}admin/vendor/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="{{asset('/')}}admin/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- Custom Font Icons CSS-->
     <link rel="stylesheet" href="{{asset('/')}}admin/css/font.css">
     <!-- Google fonts - Muli-->
@@ -91,7 +91,7 @@
             <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Category</a>
                 <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
                     <li><a href="{{route('admin.category.add')}}">Add Category</a></li>
-                    <li><a href="#">All Categories</a></li>
+                    <li><a href="{{route('admin.category.index')}}">All Categories</a></li>
                 </ul>
             </li>
             <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Example dropdown </a>

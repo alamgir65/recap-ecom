@@ -23,7 +23,9 @@ Route::middleware('auth')->group(function () {
 
 //Admin middleware
 Route::middleware('admin')->group(function () {
+    Route::get('/admin/category',[CategoryController::class,'index'])->name('admin.category.index');
     Route::get('/admin/category/add',[CategoryController::class,'addCategory'])->name('admin.category.add');
+    Route::post('/admin/category/addToTable',[CategoryController::class,'addCategoryToTable'])->name('admin.category.addToTable');
 });
 
 require __DIR__.'/auth.php';

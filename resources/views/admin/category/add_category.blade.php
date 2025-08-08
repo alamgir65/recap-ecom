@@ -20,25 +20,20 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-5 px-0">
-                    <form action="#">
+                    <form action="{{route('admin.category.addToTable')}}" method="POST">
+                        @csrf
                         <div>
-                            <input type="text" placeholder="Name" />
-                        </div>
-                        <div>
-                            <input type="email" placeholder="Email" />
-                        </div>
-                        <div>
-                            <input type="text" placeholder="Phone" />
-                        </div>
-                        <div>
-                            <input type="text" class="message-box" placeholder="Message" />
+                            <input type="text" name="category_name" placeholder="Category Name" />
                         </div>
                         <div class="d-flex ">
-                            <button>
+                            <button type="submit">
                                 SEND
                             </button>
                         </div>
                     </form>
+                    @if(session('message'))
+                        <span class="text-success">{{session('message')}}</span>
+                        @endif
                 </div>
             </div>
         </div>
